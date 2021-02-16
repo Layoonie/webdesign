@@ -1,0 +1,28 @@
+/**********************
+
+default style rule set for css
+
+selector {
+  property: value;
+}
+
+********************/
+
+body {
+  background-color: pink;
+}
+h1 {
+  color: white
+  text-align: center;
+}
+
+h2 {
+  color: white;
+  text-align: center;
+}
+a {
+  color: blue;
+}
+a:hover {
+  color: dodgerblue;
+}
