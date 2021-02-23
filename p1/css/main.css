@@ -9,21 +9,32 @@ selector {
 ********************/
 
 body {
-  background-color: pink;
-  margin-top: 100px;
+font-family: 'Kanit', sans-serif;
 }
+
+body {
+  background-color: white;
+  margin-top: 330px;
+}
+
 h1 {
-  color: white
+  color: hotpink;
   text-align: center;
+  font-size: 100px;
+  font-weight: 900;
 }
 
 h2 {
-  color: white;
+  color: lightskyblue;
   text-align: center;
+  font-size: 50px;
+  font-weight: 300;
 }
+
 a {
-  color: blue;
+  color: white;
 }
 a:hover {
-  color: dodgerblue;
+  color: steelblue;
+  font-style: italic;
 }
