@@ -1,0 +1,89 @@
+/********** general styles **********/
+  {
+    box-sizing: border-box;
+}
+html {
+  font-size: 16px;
+}
+
+body {
+  background-color: #93c572;
+  font-family: 'DM Serif Display', serif;
+}
+/********** layout styles **********/
+header {
+  width: 75vw;
+  margin: 25px auto;
+}
+main {
+  width: 75vw;
+  margin: 25px auto;
+  display: flow-root;
+}
+.col {
+  width: 50%;
+  float: left;
+}
+/********** type styles **********/
+h1 {
+  font-size: 3rem;
+  text-align: left;
+  font-family: 'DM Serif Display';
+  font-weight: 700;
+  text-transform: uppercase;
+  color: white;
+
+}
+
+a {
+  color: white;
+  }
+
+a:hover {
+  color: darkolivegreen;
+  font-style: italic;
+  }
+
+h2 {
+  font-size: 2rem;
+  text-align: left;
+  font-family: 'DM Serif Display';
+  font-weight: 700;
+  color: olivedrab;
+
+}
+/********** list styles **********/
+li {
+  font-size: 1rem;
+  line-height: 1.5rem;
+  margin-bottom: 10px;
+  text-align: left;
+  text-transform: uppercase;
+  letter-spacing: 1px;
+  font-weight: 700;
+}
+ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+}
+/********** image styles **********/
+img {
+  max-width: 100%;
+}
+/********** media queries **********/
+@media screen and (max-width: 900px) {
+  .col {
+    width: 100%;
+    margin-bottom: 50px;
+  }
+  header {
+    width: 90vw;
+  }
+  main {
+    width:90vw;
+  }
+  h1 {
+    font-size:3rem;
+  }
+}
